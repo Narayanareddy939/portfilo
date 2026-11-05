@@ -10,24 +10,24 @@ export default function About() {
         <div className="about-grid">
           <div className="prose rv dl1">
             <p>
-              I'm <strong>N Lakshmi Narayana Reddy</strong> — a Computer Science Engineering (Data Science)
-              undergraduate at <strong>Presidency University, Bengaluru</strong>, with a strong foundation in
-              Python, problem solving, data structures, and software development. I have hands-on experience
-              building responsive web applications using React.js, JavaScript, HTML5, and CSS3.
+              I'm <strong>N Lakshmi Narayana Reddy</strong> — a <strong>Full Stack Developer</strong> and
+              Computer Science Engineering (Data Science) undergraduate at <strong>Presidency University,
+              Bengaluru</strong>. I enjoy building end-to-end digital products that combine responsive
+              frontend experiences with reliable backend logic, APIs, and database-driven workflows.
             </p>
             <p>
-              I enjoy creating user-focused interfaces, working with APIs, and developing practical
-              applications. I also have prior AI/ML internship experience and experience working with
-              Python-based machine learning technologies.
+              My work spans React.js, JavaScript, Python, REST APIs, authentication flows, data handling,
+              and practical problem solving. I’ve built full-stack applications, contributed to AI/ML
+              projects, and focused on creating solutions that are useful, scalable, and user-friendly.
             </p>
             <div className="pullq">
-              "Building for users means understanding them first. Every component I write, every API I
-              integrate — it all starts with asking: does this actually help someone?"
+              "Good products are built with clear thinking, clean interfaces, and dependable backend logic.
+              I care about building experiences that work beautifully and perform reliably."
             </div>
             <p>
-              Currently I am deepening my <strong>React.js and JavaScript</strong> skills while pursuing my
-              B.Tech, and looking for opportunities where I can contribute to real-world frontend projects,
-              grow as a developer, and deliver meaningful user experiences.
+              I am currently growing as a <strong>Full Stack Developer</strong> by strengthening my skills in
+              frontend architecture, backend integration, data workflows, and deployment while pursuing my
+              B.Tech and working on practical projects with real-world impact.
             </p>
             <div className="tl rv dl2">
               <div className="tl-lbl">My Journey</div>
@@ -53,7 +53,7 @@ export default function About() {
                 {
                   year: '2026 →',
                   title: 'Building the Next Chapter',
-                  desc: 'Seeking frontend developer roles. Growing with React.js, REST APIs, and responsive design at scale.',
+                  desc: 'Seeking full stack developer roles focused on frontend engineering, backend systems, APIs, and scalable product development.',
                   filled: false,
                 },
               ].map((item, i) => (
@@ -74,17 +74,17 @@ export default function About() {
               {[
                 {
                   title: 'Career Direction',
-                  desc: 'Aspiring Frontend Developer focused on React.js, JavaScript, and Python. Goal: join a team where I can build impactful, user-centric web applications and grow as a software engineer.',
-                  tag: 'Frontend → Developer',
+                  desc: 'Full Stack Developer focused on building responsive interfaces, secure backend logic, API-driven workflows, and practical product experiences.',
+                  tag: 'Full Stack → Developer',
                 },
                 {
                   title: 'Biggest Project',
-                  desc: 'Built FindIt — an AI-powered Lost & Found platform using React.js, REST APIs, Google Gemini AI, MongoDB Atlas and Cloudinary for image management.',
+                  desc: 'Built FindIt — a full-stack lost-and-found platform with authentication, item management, search workflows, and AI-assisted categorization.',
                   tag: 'Full Project',
                 },
                 {
                   title: 'What Drives Me',
-                  desc: 'The intersection of clean UI and real functionality. I believe the best applications feel effortless to use because of the effort put into building them right.',
+                  desc: 'Creating applications that combine smooth user experiences with reliable backend systems, clean data flows, and real-world utility.',
                   tag: 'User-Centred Dev',
                 },
               ].map((c) => (
@@ -98,10 +98,10 @@ export default function About() {
             <div className="int-t">Beyond Work</div>
             <div className="int-grid">
               {[
-                { title: 'Open Source Exploration', desc: 'Exploring open source projects to understand real-world codebases and contribute where possible.' },
-                { title: 'UI/UX Curiosity', desc: 'Studying design systems and user experience principles to build visually polished, accessible interfaces.' },
+                { title: 'API Design', desc: 'Exploring clean REST API design patterns and backend workflows to improve developer experience and application reliability.' },
+                { title: 'Product Thinking', desc: 'Designing features around user needs, workflow clarity, and practical value from concept to deployment.' },
                 { title: 'Problem Solving', desc: 'Practicing Data Structures & Algorithms to sharpen coding skills and improve engineering fundamentals.' },
-                { title: 'Tech Trends', desc: 'Keeping up with the latest in frontend frameworks, AI integration, and web performance best practices.' },
+                { title: 'Tech Trends', desc: 'Keeping up with frontend frameworks, backend optimization, cloud deployment, and AI-driven product experiences.' },
               ].map((item) => (
                 <div className="icard" key={item.title}>
                   <div className="icard-t">{item.title}</div>

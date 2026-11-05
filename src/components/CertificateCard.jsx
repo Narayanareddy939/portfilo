@@ -38,7 +38,7 @@ export default function CertificateCard({ cert }) {
           </a>
         ) : (
           <span className="cert-btn view" style={{ opacity: 0.7, cursor: 'default' }}>
-            <FiEye size={13} /> View Certificate
+            <FiEye size={13} /> Certificate link will be updated soon.
           </span>
         )}
         <button className="cert-btn dl" onClick={handleDownload}>

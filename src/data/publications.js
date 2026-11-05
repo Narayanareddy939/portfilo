@@ -10,7 +10,7 @@ export const publications = [
     description:
       'This research investigates identity and data theft vulnerabilities through password security analysis using John the Ripper, a widely-used password auditing tool. The study examines common attack vectors and proposes defense strategies against credential-based security breaches.',
     tags: ['Cybersecurity', 'Password Cracking', 'John the Ripper', 'Identity Theft', 'Data Security'],
-    readUrl: null,
+    readUrl: 'https://lnkd.in/p/dZ8dS44d',
     pdfUrl: null,
   },
 ];

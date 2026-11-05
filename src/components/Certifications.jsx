@@ -9,8 +9,8 @@ export default function Certifications() {
           <div className="eyebrow">Credentials &amp; Recognition</div>
           <h2 className="sec-h">Certifications <em>&amp; Highlights</em></h2>
           <p className="sec-p">
-            Certified in JavaScript and React.js — building frontend expertise with verifiable
-            credentials.
+            Certified in JavaScript and React.js while building full-stack capability across web,
+            data, and application workflows.
           </p>
         </div>
 
@@ -18,8 +18,8 @@ export default function Certifications() {
           <div className="bal tech">
             <div className="bal-t">Technical Capability</div>
             <div className="bal-d">
-              Frontend-focused developer with hands-on React.js, JavaScript, and Python skills, and
-              AI/ML internship experience.
+              Full-stack developer with hands-on experience in React.js, JavaScript, Python, API
+              integration, and data-driven product development.
             </div>
             <div className="bskills">
               {['Python', 'JavaScript', 'React.js', 'HTML5', 'CSS3', 'REST APIs', 'MongoDB', 'Pandas', 'NumPy'].map((s) => (
@@ -30,8 +30,8 @@ export default function Certifications() {
           <div className="bal biz">
             <div className="bal-t">Core CS Concepts</div>
             <div className="bal-d">
-              Strong computer science foundation with focus on problem solving, data structures, OOP,
-              and database management.
+              Strong computer science foundation with emphasis on problem solving, data structures,
+              OOP, backend workflows, and database management.
             </div>
             <div className="bskills">
               {['Data Structures & Algorithms', 'OOP', 'DBMS', 'Git & GitHub', 'React Hooks', 'Component-Based Architecture'].map((s) => (

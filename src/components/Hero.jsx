@@ -84,11 +84,10 @@ export default function Hero() {
           <span className="n1">N Lakshmi</span>
           <span className="n2">Narayana Reddy</span>
         </h1>
-        <p className="hero-title">Frontend Developer | CSE (Data Science)</p>
+        <p className="hero-title">Full Stack Developer | B.Tech CSE (Data Science)</p>
         <p className="hero-sub">
-          <strong>CSE (Data Science) undergraduate</strong> with strong Python skills and hands-on
-          experience building responsive web applications using React.js, JavaScript, HTML5, and
-          CSS3.
+          <strong>Full Stack Developer</strong> passionate about building responsive web applications,
+          scalable backend systems, data-driven experiences, and user-focused digital products.
         </p>
         <div className="hero-stats">
           <div>
@@ -126,16 +125,16 @@ export default function Hero() {
             <img src="/Narayana_profile.jpeg" alt="N Lakshmi Narayana Reddy" />
           </div>
           <div className="fchip fc1">
-            <div className="fchip-v">React.js</div>
-            <div className="fchip-l">Frontend Dev</div>
+            <div className="fchip-v">Full Stack</div>
+            <div className="fchip-l">Web Apps</div>
           </div>
           <div className="fchip fc2">
-            <div className="fchip-v">Python</div>
-            <div className="fchip-l">Primary Lang</div>
+            <div className="fchip-v">Node.js</div>
+            <div className="fchip-l">APIs</div>
           </div>
           <div className="fchip fc3">
-            <div className="fchip-v">AI/ML</div>
-            <div className="fchip-l">Internship</div>
+            <div className="fchip-v">MongoDB</div>
+            <div className="fchip-l">Data</div>
           </div>
         </div>
       </div>

@@ -5,9 +5,9 @@ const experiences = [
     period: 'July 2025 – September 2025 · 3 Months',
     org: 'MS Intern Solutions',
     points: [
-      'Developed machine learning models using Python, Pandas, NumPy, and Scikit-learn.',
-      'Performed exploratory data analysis, preprocessing, feature engineering, and model evaluation.',
-      'Applied classification algorithms and contributed to end-to-end machine learning workflows.',
+      'Built data-driven solutions using Python, Pandas, NumPy, and Scikit-learn for model development and evaluation.',
+      'Performed preprocessing, exploratory analysis, and feature engineering to improve practical outcomes.',
+      'Applied machine learning workflows while strengthening full-stack and product-oriented problem solving.',
     ],
     delay: 'dl1',
   },
@@ -32,8 +32,8 @@ export default function Experience() {
           <div className="eyebrow">Where I've Grown</div>
           <h2 className="sec-h">Professional <em>Experience</em></h2>
           <p className="sec-p">
-            Building technical skills through real internship experience and academic projects that
-            reflect practical, hands-on learning.
+            Building end-to-end technical skills across frontend development, backend integration, data
+            workflows, and product-focused problem solving.
           </p>
         </div>
         <div className="ecards">

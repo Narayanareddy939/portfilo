@@ -25,21 +25,25 @@ export default function PublicationCard({ pub }) {
         <div className="pub-btns">
           {pub.readUrl ? (
             <a className="pub-btn read" href={pub.readUrl} target="_blank" rel="noopener noreferrer">
-              <FiBookOpen size={13} /> Read Publication
+              <FiBookOpen size={13} /> View LinkedIn Post
             </a>
           ) : (
             <span className="pub-btn read" style={{ opacity: 0.7, cursor: 'default' }}>
-              <FiBookOpen size={13} /> Read Publication
+              <FiBookOpen size={13} /> View LinkedIn Post
             </span>
           )}
           {pub.pdfUrl ? (
             <a className="pub-btn pdf" href={pub.pdfUrl} target="_blank" rel="noopener noreferrer">
-              <FiFileText size={13} /> View PDF
+              <FiFileText size={13} /> View Certificate
             </a>
           ) : (
-            <span className="pub-btn pdf" style={{ opacity: 0.7, cursor: 'default' }}>
-              <FiFileText size={13} /> View PDF
-            </span>
+            <button
+              className="pub-btn pdf"
+              onClick={() => alert('I will update soon.')}
+              type="button"
+            >
+              <FiFileText size={13} /> Certificate image will be updated soon.
+            </button>
           )}
         </div>
       </div>

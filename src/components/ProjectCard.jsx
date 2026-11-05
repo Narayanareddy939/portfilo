@@ -1,4 +1,4 @@
-import { FiGithub, FiExternalLink } from 'react-icons/fi';
+import ProjectActions from './ProjectActions';
 
 export default function ProjectCard({ project, index }) {
   return (
@@ -22,7 +22,7 @@ export default function ProjectCard({ project, index }) {
             border: '1px solid rgba(107,186,181,.18)',
           }}
         >
-          {index === 0 ? '📸' : '🫀'}
+          {project.title.includes('Heart Attack') ? '🫀' : '▦'}
         </div>
       )}
       <span className="pc-badge">{project.badge}</span>
@@ -33,20 +33,7 @@ export default function ProjectCard({ project, index }) {
           <span className="ptag" key={t}>{t}</span>
         ))}
       </div>
-      <div className="pc-btns">
-        {project.github && (
-          <a className="pc-btn gh" href={project.github} target="_blank" rel="noopener noreferrer">
-            <FiGithub size={13} /> GitHub
-          </a>
-        )}
-        {project.live ? (
-          <a className="pc-btn live" href={project.live} target="_blank" rel="noopener noreferrer">
-            <FiExternalLink size={13} /> Live Demo
-          </a>
-        ) : (
-          <span className="pc-btn soon">⏳ Coming Soon</span>
-        )}
-      </div>
+      <ProjectActions project={project} />
     </div>
   );
 }

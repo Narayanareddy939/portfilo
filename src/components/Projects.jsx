@@ -1,5 +1,6 @@
-import { FiGithub, FiExternalLink } from 'react-icons/fi';
+import { FiGithub } from 'react-icons/fi';
 import ProjectCard from './ProjectCard';
+import ProjectActions from './ProjectActions';
 import { projects } from '../data/projects';
 
 const flagship = projects.find((p) => p.type === 'flagship');
@@ -20,22 +21,7 @@ export default function Projects() {
 
         {/* Flagship Card */}
         <div className="gov rv dl1">
-          <div
-            style={{
-              width: '100%',
-              height: '220px',
-              background: 'linear-gradient(135deg, rgba(107,186,181,0.15), rgba(0,123,122,0.08))',
-              borderRadius: '12px',
-              marginBottom: '1.2rem',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              fontSize: '4rem',
-              border: '1px solid rgba(107,186,181,.15)',
-            }}
-          >
-            🔍
-          </div>
+          <img className="gov-img" src={flagship.image} alt={`${flagship.title} live preview`} />
           <div className="gov-lbl">{flagship.label}</div>
           <div className="gov-t">{flagship.title}</div>
           <a
@@ -52,24 +38,7 @@ export default function Projects() {
               <span className="gtag" key={t}>{t}</span>
             ))}
           </div>
-          <div className="gov-btns">
-            <a
-              className="gov-btn primary"
-              href={flagship.live}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FiExternalLink size={13} /> Live Demo
-            </a>
-            <a
-              className="gov-btn ghost"
-              href={flagship.github}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FiGithub size={13} /> GitHub
-            </a>
-          </div>
+          <ProjectActions project={flagship} />
         </div>
 
         {/* Grid Cards */}

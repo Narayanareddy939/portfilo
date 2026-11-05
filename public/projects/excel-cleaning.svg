@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" fill="none">
+  <defs>
+    <linearGradient id="background" x1="80" y1="40" x2="1210" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E9F6F5"/>
+      <stop offset="1" stop-color="#C8E9E7"/>
+    </linearGradient>
+    <linearGradient id="sheet" x1="411" y1="152" x2="865" y2="559" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F7FCFB"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" rx="28" fill="url(#background)"/>
+  <circle cx="1030" cy="105" r="215" fill="#007B7A" fill-opacity=".08"/>
+  <circle cx="210" cy="670" r="240" fill="#D98A72" fill-opacity=".08"/>
+  <rect x="315" y="112" width="650" height="468" rx="24" fill="url(#sheet)" stroke="#6BBAB5" stroke-opacity=".5" stroke-width="3"/>
+  <path d="M315 136c0-13 11-24 24-24h602c13 0 24 11 24 24v74H315v-74Z" fill="#007B7A"/>
+  <text x="356" y="177" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="24" font-weight="700">SPREADSHEET</text>
+  <path d="M360 250h560M360 310h560M360 370h560M360 430h560M360 490h560M500 210v300M640 210v300M780 210v300" stroke="#B7D7D4" stroke-width="3"/>
+  <path d="m814 355 24 25 49-58" stroke="#007B7A" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="315" y="642" fill="#1A2E2C" font-family="Arial, sans-serif" font-size="34" font-weight="700">Data Cleaning Project using Excel</text>
+  <text x="315" y="680" fill="#47706D" font-family="Arial, sans-serif" font-size="19">Microsoft Excel • Data quality</text>
+</svg>
