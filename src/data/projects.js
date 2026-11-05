@@ -11,7 +11,7 @@ export const projects = [
     github: 'https://github.com/Narayanareddy939/FindIt',
     live: 'https://find-it-murex-six.vercel.app/',
     linkedin: 'https://lnkd.in/p/dhJ-u_2H',
-    image: '/projects/findit.png',
+    image: `${import.meta.env.BASE_URL}projects/findit.png`,
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ export const projects = [
     github: 'https://github.com/Narayanareddy939/Medicare_project',
     live: 'https://medicare-project-1xos.vercel.app/',
     linkedin: 'https://lnkd.in/p/dAR2_Hdy',
-    image: '/projects/medicare.png',
+    image: `${import.meta.env.BASE_URL}projects/medicare.png`,
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ export const projects = [
     github: null,
     live: null,
     linkedin: null,
-    image: '/projects/heart-risk.svg',
+    image: `${import.meta.env.BASE_URL}projects/heart-risk.svg`,
   },
   {
     id: 4,
@@ -50,7 +50,7 @@ export const projects = [
     github: 'https://github.com/Narayanareddy939/anand-studios-portfolio',
     live: 'https://anand-studios-portfolio-yi6b.vercel.app/',
     linkedin: null,
-    image: '/projects/anand-studios.png',
+    image: `${import.meta.env.BASE_URL}projects/anand-studios.png`,
   },
   {
     id: 5,
@@ -63,7 +63,7 @@ export const projects = [
     github: null,
     live: null,
     linkedin: null,
-    image: '/projects/excel-cleaning.svg',
+    image: `${import.meta.env.BASE_URL}projects/excel-cleaning.svg`,
   },
   {
     id: 6,
@@ -76,7 +76,7 @@ export const projects = [
     github: 'https://github.com/Narayanareddy939/sql_learning_journey',
     live: null,
     linkedin: 'https://lnkd.in/p/d_m4tqDV',
-    image: '/projects/snowflake-sql.png',
+    image: `${import.meta.env.BASE_URL}projects/snowflake-sql.png`,
   },
   {
     id: 7,
@@ -89,6 +89,6 @@ export const projects = [
     github: 'https://github.com/Narayanareddy939/portfilo-react',
     live: 'https://portfilo-react.vercel.app/',
     linkedin: null,
-    image: '/projects/portfolio.png',
+    image: `${import.meta.env.BASE_URL}projects/portfolio.png`,
   },
 ];

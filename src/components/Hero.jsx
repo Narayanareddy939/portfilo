@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 
 function dlResume() {
   const a = document.createElement('a');
-  a.href = '/NARAYANA_Frontend_RESUME.pdf';
+  a.href = `${import.meta.env.BASE_URL}NARAYANA_Frontend_RESUME.pdf`;
   a.download = 'NARAYANA_Frontend_RESUME.pdf';
   document.body.appendChild(a);
   a.click();
@@ -122,7 +122,7 @@ export default function Hero() {
           <div className="pr pr3"></div>
           <div className="photo-glow"></div>
           <div className="pb">
-            <img src="/Narayana_profile.jpeg" alt="N Lakshmi Narayana Reddy" />
+            <img src={`${import.meta.env.BASE_URL}Narayana_profile.jpeg`} alt="N Lakshmi Narayana Reddy" />
           </div>
           <div className="fchip fc1">
             <div className="fchip-v">Full Stack</div>

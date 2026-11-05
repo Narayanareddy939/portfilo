@@ -1,6 +1,6 @@
 function dlResume() {
   const a = document.createElement('a');
-  a.href = '/NARAYANA_Frontend_RESUME.pdf';
+  a.href = `${import.meta.env.BASE_URL}NARAYANA_Frontend_RESUME.pdf`;
   a.download = 'NARAYANA_Frontend_RESUME.pdf';
   document.body.appendChild(a);
   a.click();
